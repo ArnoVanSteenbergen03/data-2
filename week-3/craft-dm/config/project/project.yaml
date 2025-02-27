@@ -1,13 +1,39 @@
-dateModified: 1740672976
+dateModified: 1740681116
 email:
   fromEmail: arno.van.steenbergen1@gmail.com
   fromName: 'Craft Test'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  audio:
+    hasUrls: true
+    name: Audio
+    settings:
+      path: '@webroot/assets/audio'
+    type: craft\fs\Local
+    url: '@web/assets/audio'
+  general:
+    hasUrls: true
+    name: General
+    settings:
+      path: '@webroot/assets/general'
+    type: craft\fs\Local
+    url: '@web/assets/general'
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images'
 meta:
   __names__:
     3f0de74b-a5af-4491-b091-b089a9e29f35: Default # Default
     9af51a79-286c-4914-a8bb-5e5361aee23c: 'Craft Test' # Craft Test
+    751cf49b-9929-417a-b932-69554d28ed72: Vacations # Vacations
+    5896ea79-8f94-48a7-b0bb-cabeddc5c117: 'General Volume' # General Volume
+    d4bb9838-1614-4185-9d8e-1fb64b01fe0d: 'Images Volume' # Images Volume
     eb3bd2cb-1645-4d40-a586-d3c9ed3018b6: 'Craft Test' # Craft Test
+    f5f1ce4a-293a-4d26-a51a-9349ed9e2fdf: 'Audio Volume' # Audio Volume
 plugins:
   cp-nav:
     edition: standard

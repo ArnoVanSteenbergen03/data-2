@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  40db554d-2c77-4e71-a4a8-81d772e1dde8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-27T18:30:23+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 421c16fc-6449-48ca-93ad-38eac1752b4e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 20d3a4f4-db2b-4078-87c1-224faa17ecfb
+        userCondition: null
+handle: vacations
+name: Vacations
+siteSettings:
+  eb3bd2cb-1645-4d40-a586-d3c9ed3018b6: # Craft Test
+    hasUrls: true
+    template: vacations/_category.twig
+    uriFormat: 'vacations/{slug}'
+structure:
+  maxLevels: null
+  uid: e8979948-91e8-4e99-8ccb-d59ce693976c
