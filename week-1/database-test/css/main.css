@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: rgb(98, 208, 252);
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 25px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.article {
+    width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(98, 208, 252);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.article p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.article img {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+aside {
+    width: 20%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid rgb(98, 208, 252);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: none;
+}
+
+aside h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.activator {
+    display: block;
+}
+
+
+.open-aside {
+    display: block;
+    background-color: rgb(98, 208, 252);
+    border: none;
+    border-radius: 25px;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
