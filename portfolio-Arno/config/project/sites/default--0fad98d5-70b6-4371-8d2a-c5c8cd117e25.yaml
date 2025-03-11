@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Portfolio - Van Steenbergen Arno'
+primary: true
+siteGroup: 93bd2f0c-2f37-4149-9a55-f1d31d58396c # Portfolio - Van Steenbergen Arno
+sortOrder: 1

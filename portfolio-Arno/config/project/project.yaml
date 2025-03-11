@@ -1,0 +1,31 @@
+dateModified: 1741608989
+email:
+  fromEmail: arno.van.steenbergen1@gmail.com
+  fromName: 'Portfolio - Van Steenbergen Arno'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0fad98d5-70b6-4371-8d2a-c5c8cd117e25: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
+    3ee37d84-50d0-4072-b271-eae5deb1ef2a: Home # Home
+    4c6d35a3-da12-4037-8196-3674ba39f7d8: navLink # navLink
+    9afae938-5b2e-48b4-8129-4f720b7bf9dd: hero # hero
+    9cd4b5eb-0652-4e56-8542-fe7fb56d2d77: UrlLink # UrlLink
+    93bd2f0c-2f37-4149-9a55-f1d31d58396c: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
+    513523f8-65ea-4e97-8191-aa7030e67f63: navLabel # navLabel
+    778298f5-1249-49f0-86c6-930be78cdd16: Navigation # Navigation
+    a01e2fee-736a-42ef-ae9f-50f2d93b378c: Context # Context
+    d9ff3309-2fca-4c4d-91f3-545d7de0fe56: label # label
+    e0528b80-804a-4d4b-8c29-2962b686dd6a: 'Public Schema' # Public Schema
+system:
+  edition: solo
+  live: true
+  name: 'Portfolio - Van Steenbergen Arno'
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

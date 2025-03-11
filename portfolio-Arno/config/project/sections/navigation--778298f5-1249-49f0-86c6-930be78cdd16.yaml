@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 513523f8-65ea-4e97-8191-aa7030e67f63 # navLabel
+  -
+    uid: 4c6d35a3-da12-4037-8196-3674ba39f7d8 # navLink
+handle: navigation
+maxAuthors: 1
+name: Navigation
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0fad98d5-70b6-4371-8d2a-c5c8cd117e25: # Portfolio - Van Steenbergen Arno
+    enabledByDefault: true
+    hasUrls: true
+    template: navigation/_entry.twig
+    uriFormat: 'navigation/{slug}'
+structure:
+  maxLevels: null
+  uid: a64b893b-c48a-4d45-8822-c8727768f3d2
+type: structure

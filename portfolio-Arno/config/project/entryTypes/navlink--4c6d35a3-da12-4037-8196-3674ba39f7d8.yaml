@@ -1,0 +1,37 @@
+color: purple
+fieldLayouts:
+  bf4c6b7c-2444-4c34-b98a-bb2ffbb66e20:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-10T12:16:19+00:00'
+            elementCondition: null
+            fieldUid: 9cd4b5eb-0652-4e56-8542-fe7fb56d2d77 # UrlLink
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5dce3cf8-1faa-48b3-89e7-0ce3c91ffd53
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b6291ea1-d4c8-4171-bd81-07f6a0c91a2d
+        userCondition: null
+handle: navlink
+hasTitleField: false
+icon: link
+name: navLink
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

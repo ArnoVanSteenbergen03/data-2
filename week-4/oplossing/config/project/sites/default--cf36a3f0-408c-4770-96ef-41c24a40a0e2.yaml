@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: clean
+primary: true
+siteGroup: 101f5a9d-b6dc-48e3-bbc2-36e5159edc25 # clean
+sortOrder: 1
