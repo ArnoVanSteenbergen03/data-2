@@ -1,27 +1,58 @@
-dateModified: 1741608989
+dateModified: 1741777932
 email:
   fromEmail: arno.van.steenbergen1@gmail.com
   fromName: 'Portfolio - Van Steenbergen Arno'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  audio:
+    hasUrls: true
+    name: Audio
+    settings:
+      path: '@webroot/assets/audio'
+    type: craft\fs\Local
+    url: '@web/assets/audio'
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/assets/images'
+    type: craft\fs\Local
+    url: '@web/assets/images'
+  videos:
+    hasUrls: true
+    name: Videos
+    settings:
+      path: '@webroot/assets/videos'
+    type: craft\fs\Local
+    url: '@web/assets/videos'
 meta:
   __names__:
     0fad98d5-70b6-4371-8d2a-c5c8cd117e25: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
-    3ee37d84-50d0-4072-b271-eae5deb1ef2a: Home # Home
+    01f9a30f-b79d-4ac9-9c06-c4e9ceb41b18: Project # Project
+    3ee37d84-50d0-4072-b271-eae5deb1ef2a: HomePage # HomePage
     4c6d35a3-da12-4037-8196-3674ba39f7d8: navLink # navLink
+    6df8b585-dc33-4939-9d7f-78fbc5689aa0: Audio # Audio
     9afae938-5b2e-48b4-8129-4f720b7bf9dd: hero # hero
     9cd4b5eb-0652-4e56-8542-fe7fb56d2d77: UrlLink # UrlLink
     93bd2f0c-2f37-4149-9a55-f1d31d58396c: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
-    513523f8-65ea-4e97-8191-aa7030e67f63: navLabel # navLabel
+    255db0cb-9ac1-42bb-a166-a25c2c061903: Icons # Icons
+    905a3727-eeb7-41a5-bb63-68e06a9fd97a: landingPage # landingPage
+    42394a3f-3943-4ed2-91fa-7f3efa7a15e0: Videos # Videos
+    84319d67-3dc2-4670-a0d5-3d76ec21dcd1: AboutPage # AboutPage
     778298f5-1249-49f0-86c6-930be78cdd16: Navigation # Navigation
+    88678806-e72f-4560-b61b-79156542d1a8: Projects # Projects
     a01e2fee-736a-42ef-ae9f-50f2d93b378c: Context # Context
-    d9ff3309-2fca-4c4d-91f3-545d7de0fe56: label # label
+    c59cd3a2-83c1-448b-a4be-e6eaf16556fb: image # image
+    da77d657-2b6e-49e8-a5a8-6ece251cc822: Images # Images
     e0528b80-804a-4d4b-8c29-2962b686dd6a: 'Public Schema' # Public Schema
+    f566a2cb-5523-4a35-8c27-4c56efcf4972: ContactPage # ContactPage
 system:
   edition: solo
   live: true
   name: 'Portfolio - Van Steenbergen Arno'
+  retryDuration: null
   schemaVersion: 5.6.0.2
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Amsterdam
 users:
   allowPublicRegistration: false
   defaultGroup: null

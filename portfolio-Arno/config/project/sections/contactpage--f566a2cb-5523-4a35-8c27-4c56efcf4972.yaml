@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 4c6d35a3-da12-4037-8196-3674ba39f7d8 # navLink
-handle: navigation
+    uid: 9afae938-5b2e-48b4-8129-4f720b7bf9dd # hero
+handle: contactpage
 maxAuthors: 1
-name: Navigation
+name: ContactPage
 previewTargets:
   -
     __assoc__:
@@ -23,9 +23,6 @@ siteSettings:
   0fad98d5-70b6-4371-8d2a-c5c8cd117e25: # Portfolio - Van Steenbergen Arno
     enabledByDefault: true
     hasUrls: true
-    template: navigation/_entry.twig
-    uriFormat: 'navigation/{slug}'
-structure:
-  maxLevels: null
-  uid: a64b893b-c48a-4d45-8822-c8727768f3d2
-type: structure
+    template: contactpage/_entry.twig
+    uriFormat: contactpage
+type: single

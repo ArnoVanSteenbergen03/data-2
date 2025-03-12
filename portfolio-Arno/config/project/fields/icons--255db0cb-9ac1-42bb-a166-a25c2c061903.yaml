@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: icons
+instructions: null
+name: Icons
+searchable: false
+settings:
+  includeProIcons: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Icon

@@ -1,6 +1,7 @@
-color: purple
+altTranslationKeyFormat: null
+altTranslationMethod: none
 fieldLayouts:
-  bf4c6b7c-2444-4c34-b98a-bb2ffbb66e20:
+  9f80d291-33fd-4783-ac14-60651370005d:
     tabs:
       -
         elementCondition: null
@@ -10,7 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-03-11T12:15:10+00:00'
+            dateAdded: '2025-03-12T10:56:48+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -25,43 +26,51 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            required: true
+            requirable: false
             size: null
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 5c021d14-dd3d-4a33-9ccb-123004ab0ba9
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: a226d49d-d469-41c4-9752-0af97897da35
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-10T12:16:19+00:00'
+            attribute: alt
+            class: null
+            cols: null
+            dateAdded: '2025-03-12T10:58:21+00:00'
+            disabled: false
             elementCondition: null
-            fieldUid: 9cd4b5eb-0652-4e56-8542-fe7fb56d2d77 # UrlLink
-            handle: null
+            id: null
             includeInCards: false
             instructions: null
             label: null
+            name: null
+            orientation: null
+            placeholder: null
             providesThumbs: false
+            readonly: false
+            requirable: true
             required: false
+            rows: null
             tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 5dce3cf8-1faa-48b3-89e7-0ce3c91ffd53
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: b6083df6-5f97-434b-9a9f-57d802c0df4d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b6291ea1-d4c8-4171-bd81-07f6a0c91a2d
+        uid: 018c9223-05b6-4157-b358-327781f4675e
         userCondition: null
-handle: navlink
-hasTitleField: true
-icon: link
-name: navLink
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: null
+fs: images
+handle: images
+name: Images
+sortOrder: 1
+subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''
