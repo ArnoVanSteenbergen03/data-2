@@ -1,4 +1,4 @@
-dateModified: 1741788093
+dateModified: 1742378647
 email:
   fromEmail: arno.van.steenbergen1@gmail.com
   fromName: 'Portfolio - Van Steenbergen Arno'
@@ -11,6 +11,13 @@ fs:
       path: '@webroot/assets/audio'
     type: craft\fs\Local
     url: '@web/assets/audio'
+  icons:
+    hasUrls: false
+    name: Icons
+    settings:
+      path: assets/icons
+    type: craft\fs\Local
+    url: null
   images:
     hasUrls: true
     name: Images
@@ -28,15 +35,18 @@ fs:
 meta:
   __names__:
     0fad98d5-70b6-4371-8d2a-c5c8cd117e25: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
+    1e086aa5-3a48-4986-9039-b90587849c1a: Icons # Icons
     01f9a30f-b79d-4ac9-9c06-c4e9ceb41b18: Project # Project
     3ee37d84-50d0-4072-b271-eae5deb1ef2a: HomePage # HomePage
     4c6d35a3-da12-4037-8196-3674ba39f7d8: navLink # navLink
+    4d6f2fc3-b304-40eb-a568-c03e1ce296c6: ProjectPage # ProjectPage
     6df8b585-dc33-4939-9d7f-78fbc5689aa0: Audio # Audio
     9afae938-5b2e-48b4-8129-4f720b7bf9dd: hero # hero
     9cd4b5eb-0652-4e56-8542-fe7fb56d2d77: UrlLink # UrlLink
     93bd2f0c-2f37-4149-9a55-f1d31d58396c: 'Portfolio - Van Steenbergen Arno' # Portfolio - Van Steenbergen Arno
     255db0cb-9ac1-42bb-a166-a25c2c061903: Icons # Icons
     905a3727-eeb7-41a5-bb63-68e06a9fd97a: landingPage # landingPage
+    07685c87-1dbb-4459-9136-79ae3713272d: Thumbnail # Thumbnail
     42394a3f-3943-4ed2-91fa-7f3efa7a15e0: Videos # Videos
     84319d67-3dc2-4670-a0d5-3d76ec21dcd1: AboutPage # AboutPage
     778298f5-1249-49f0-86c6-930be78cdd16: Navigation # Navigation

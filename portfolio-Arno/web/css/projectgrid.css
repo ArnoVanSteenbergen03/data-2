@@ -1,0 +1,46 @@
+/* Project Grid Container */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Responsive columns */
+    gap: 1.5rem; /* Space between items */
+    padding: 2rem;
+    list-style: none;
+    margin: 0;
+}
+
+/* Individual Project Items */
+.project {
+    background: var(--background); /* Dark background */
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Project Hover Effect */
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Links */
+.project a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Project Images */
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+/* Project Titles */
+.project h2 {
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+}

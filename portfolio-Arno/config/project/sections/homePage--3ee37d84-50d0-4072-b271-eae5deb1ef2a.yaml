@@ -27,6 +27,6 @@ siteSettings:
   0fad98d5-70b6-4371-8d2a-c5c8cd117e25: # Portfolio - Van Steenbergen Arno
     enabledByDefault: true
     hasUrls: true
-    template: home/_entry.twig
+    template: index.twig
     uriFormat: home
 type: single
