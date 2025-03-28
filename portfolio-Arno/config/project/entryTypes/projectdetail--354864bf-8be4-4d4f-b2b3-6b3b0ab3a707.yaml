@@ -1,12 +1,12 @@
 color: cyan
 fieldLayouts:
-  abdd6fc6-244b-49f9-b0f7-3b2b42450a45:
+  44a2c253-5271-46f1-be2d-8d01845158b2:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2025-03-12T08:26:18+00:00'
+            dateAdded: '2025-03-28T12:42:03+00:00'
             elementCondition: null
             fieldUid: c59cd3a2-83c1-448b-a4be-e6eaf16556fb # image
             handle: null
@@ -17,7 +17,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6df7cfbe-a387-4b49-8445-3efb11243db2
+            uid: 83b21b8c-2e68-4123-af52-d1ebc65cc64e
             userCondition: null
             warning: null
             width: 100
@@ -26,7 +26,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-03-12T08:24:01+00:00'
+            dateAdded: '2025-03-28T12:40:29+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -47,12 +47,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4d8b86b7-4f63-4c84-bdc7-57f4fe004f95
+            uid: fb4a5c74-c12f-4aeb-9e58-1ac195c5380d
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-12T08:26:18+00:00'
+            dateAdded: '2025-03-28T12:42:03+00:00'
             elementCondition: null
             fieldUid: a01e2fee-736a-42ef-ae9f-50f2d93b378c # Context
             handle: null
@@ -63,12 +63,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ce2b908c-6d13-4098-bbec-ab2035af707b
+            uid: a0f438c2-5cc3-47de-a550-a493df713dca
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-03-28T13:10:20+00:00'
+            dateAdded: '2025-03-28T12:42:03+00:00'
             elementCondition: null
             fieldUid: 9cd4b5eb-0652-4e56-8542-fe7fb56d2d77 # UrlLink
             handle: null
@@ -79,17 +79,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a7f762e9-c663-4d7f-accd-1540a04e03fe
+            uid: af744ad9-8085-48a7-8afe-61fa17d4bcc3
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 736f4607-74f6-4e72-aa7c-58c287b1cb40
+        uid: bcfe0200-1e39-43ea-a491-548a0be3d922
         userCondition: null
-handle: project
+handle: projectdetail
 hasTitleField: true
-icon: rectangle-history
-name: Project
+icon: asterisk
+name: projectdetail
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

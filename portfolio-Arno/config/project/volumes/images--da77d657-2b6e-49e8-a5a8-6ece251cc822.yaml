@@ -72,5 +72,5 @@ sortOrder: 1
 subpath: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
-transformFs: images
+transformFs: ''
 transformSubpath: ''

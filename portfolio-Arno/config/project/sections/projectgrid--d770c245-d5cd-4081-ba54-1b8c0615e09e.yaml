@@ -3,9 +3,9 @@ enableVersioning: true
 entryTypes:
   -
     uid: 01f9a30f-b79d-4ac9-9c06-c4e9ceb41b18 # Project
-handle: projects
+handle: projectgrid
 maxAuthors: 1
-name: Projects
+name: ProjectGrid
 previewTargets:
   -
     __assoc__:
@@ -24,5 +24,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _projects/index
-    uriFormat: 'projects/{slug}'
+    uriFormat: 'projectgrid/{slug}'
 type: channel

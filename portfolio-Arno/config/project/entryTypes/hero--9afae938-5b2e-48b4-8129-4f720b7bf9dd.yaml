@@ -6,6 +6,22 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2025-03-12T08:37:36+00:00'
+            elementCondition: null
+            fieldUid: c59cd3a2-83c1-448b-a4be-e6eaf16556fb # image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9163475a-162e-4025-ac33-d37838b07a3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -32,22 +48,6 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: 05b4ad91-102e-4f9f-80d1-af2e209194c2
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-03-12T08:37:36+00:00'
-            elementCondition: null
-            fieldUid: c59cd3a2-83c1-448b-a4be-e6eaf16556fb # image
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 9163475a-162e-4025-ac33-d37838b07a3b
             userCondition: null
             warning: null
             width: 100
