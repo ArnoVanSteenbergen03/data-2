@@ -1,0 +1,48 @@
+.project-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+  background: var(--background); 
+  font-family: "Inter", sans-serif; 
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+/* Title */
+.project-detail h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  color: var(--text);
+}
+
+/* Context/Description */
+.project-context {
+  line-height: 1.6;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+/* URL Link Button */
+.project-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--selected);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.project-link:hover {
+  background: var(--background);
+}

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Website{% endblock %}</title>
-    <link rel="stylesheet" href="../css/navStyling.css">
-    <link rel="stylesheet" href="../css/projectgrid.css">
-    <link rel="stylesheet" href="../css/main.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			{% block title %}My Website
+			{% endblock %}
+		</title>
+		<link rel="stylesheet" href="../css/navStyling.css">
+		<link rel="stylesheet" href="../css/projectgrid.css">
+        <link rel="stylesheet" href="../css/projectDetail.css">
+		<link rel="stylesheet" href="../css/main.css">
+	</head>
+	<body>
 
-    {% include '_partials/nav.twig' %}
+		{% include '_partials/nav.twig' %}
 
-    <main>
-        {% block content %}{% endblock %}
-    </main>
+		<main>
+			{% block content %}{% endblock %}
+		</main>
 
-</body>
+	</body>
 </html>

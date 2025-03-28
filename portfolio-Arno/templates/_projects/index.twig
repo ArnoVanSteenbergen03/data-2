@@ -1,14 +1,13 @@
 {% extends './_layouts/detailLanding.twig' %}
 
 {% block content %}
-  <article class="project-detail">
-      <img src="{{ entry.image.one() }}" alt="{{ entry.title }}" class="project-image">
-    <h1>{{ entry.title }}</h1>
-    <div class="project-context">
-      {{ entry.context }}
-    </div>
-    {% if entry.urllink %}
-      <a href="{{ entry.urllink }}" target="_blank" class="project-link">Visit Project →</a>
-    {% endif %}
-  </article>
-{% endblock %}
+	<article class="project-detail">
+		<div class="project-image-container">
+			<img src="{{ entry.image.one() }}" alt="{{ entry.title }}" class="project-image">
+			<h1>{{ entry.title }}</h1>
+			<div class="project-context">
+				{{ entry.context }}
+			</div>
+			<a href="{{ entry.urllink }}" target="_blank" class="project-link">Visit Project →</a>
+		</article>
+	{% endblock %}

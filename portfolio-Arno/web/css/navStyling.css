@@ -1,58 +1,57 @@
 /* Navigation Container */
 .header {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    background-color: var(--background);
-    border-radius: 2rem;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--background);
+  border-radius: 2rem;
+  margin: 1rem;
 }
 
 /* Navigation Bar */
 .nav {
-    width: 90%;
-    max-width: 1200px;
+  width: 90%;
+  max-width: 1200px;
 }
 
 /* Navigation List */
 .nav__list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Navigation Items */
 .nav__item {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 0.75rem 1.5rem;
-    border-radius: 2rem;
-    transition: background 0.3s ease-in-out;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  transition: background 0.3s ease-in-out;
 }
 
 /* Active Link */
 .nav-item:has(a[href="/"]) {
-    background-color: var(--selected); 
+  background-color: var(--selected);
 }
 
 .nav-item:has(a[href="/about"]) {
-    background-color: var(--selected); 
+  background-color: var(--selected);
 }
 
 .nav-item:has(a[href="/projects"]) {
-    background-color: var(--selected);
+  background-color: var(--selected);
 }
 
 .nav-item:has(a[href="/contact"]) {
-    background-color: var(--selected);
+  background-color: var(--selected);
 }
-
 
 /* Hover Effect */
 .nav-item:hover {
-    background: rgba(255, 255, 255, 0.2);
+  background: var(--background);
 }
